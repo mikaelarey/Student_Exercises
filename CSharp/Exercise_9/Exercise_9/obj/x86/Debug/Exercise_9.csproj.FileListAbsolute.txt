@@ -1,0 +1,4 @@
+C:\Users\Shynee\Desktop\Projects\Student_Exercises\CSharp\Exercise_9\Exercise_9\bin\Debug\Exercise_9.exe
+C:\Users\Shynee\Desktop\Projects\Student_Exercises\CSharp\Exercise_9\Exercise_9\bin\Debug\Exercise_9.pdb
+C:\Users\Shynee\Desktop\Projects\Student_Exercises\CSharp\Exercise_9\Exercise_9\obj\x86\Debug\Exercise_9.exe
+C:\Users\Shynee\Desktop\Projects\Student_Exercises\CSharp\Exercise_9\Exercise_9\obj\x86\Debug\Exercise_9.pdb
