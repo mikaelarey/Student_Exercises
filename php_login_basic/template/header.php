@@ -16,9 +16,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <?php if (is_user_logged_in()): ?>
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="logout.php">Logout</a>
           </li>
         </ul>
       <?php endif; ?>
