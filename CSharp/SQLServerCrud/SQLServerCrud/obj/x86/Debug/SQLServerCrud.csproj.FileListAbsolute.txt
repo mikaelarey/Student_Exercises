@@ -1,0 +1,7 @@
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\bin\Debug\SQLServerCrud.exe
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\bin\Debug\SQLServerCrud.pdb
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\obj\x86\Debug\SQLServerCrud.Form1.resources
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\obj\x86\Debug\SQLServerCrud.Properties.Resources.resources
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\obj\x86\Debug\SQLServerCrud.csproj.GenerateResource.Cache
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\obj\x86\Debug\SQLServerCrud.exe
+C:\Users\Rey\Desktop\SQLServerCrud\SQLServerCrud\obj\x86\Debug\SQLServerCrud.pdb
