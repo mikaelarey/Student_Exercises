@@ -12,8 +12,8 @@ namespace test
 
         private void Add_ListView_Columns()
         {
-            this.listView1.BackColor = System.Drawing.SystemColors.Control;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            listView1.BackColor = System.Drawing.SystemColors.Control;
+            listView1.View = System.Windows.Forms.View.Details;
 
             ColumnHeader columnHeader1 = new ColumnHeader();
             columnHeader1.Text = "Date Time";
@@ -49,7 +49,12 @@ namespace test
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
+                if (ModifierKeys == Keys.Shift)
+                    return;
+
                 Add_Message();
+
+                e.Handled = true;
             }
         }
     }
