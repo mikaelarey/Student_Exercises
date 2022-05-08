@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Forms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Forms</h2>
+
+@if (ViewBag.isSuccessful)
+{
+    <div class="alert alert-primary" role="alert">
+        Successfully Added
+    </div>
+}
+
+@*<form action="/Admin/GetFormData" method="post">
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="FirstName" value="John"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="LastName" value="Doe"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>*@
+
+@using (Html.BeginForm("GetFormData", "Admin", FormMethod.Post))
+{
+    <label for="fname">First name:</label>
+    <br>
+
+    @Html.TextBox("FirstName", null, new { @class = "form-control" })
+    <br>
+
+    @Html.Password("Password")
+
+
+    <label for="lname">Last name:</label>
+    <br>
+    @Html.TextBox("LastName")
+    <br>
+    <br>
+
+    <input type="submit" value="Submit">
+}
+
